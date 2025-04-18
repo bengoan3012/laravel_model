@@ -36,6 +36,7 @@ Route::get('role', [RoleController::class, 'role'])->name('user.role');
 
 Route::get('signout', [CrudUserController::class, 'signOut'])->name('signout');
 
+
 Route::get('/', function () {
     return view('welcome');
 });
